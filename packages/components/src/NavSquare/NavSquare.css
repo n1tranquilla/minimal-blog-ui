@@ -1,6 +1,6 @@
 .nav-square {
-    height: 5rem;
-    width: 5rem;
+    height: var(--weave-width);
+    width: var(--weave-width);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,4 +24,9 @@
 .nav-square--tertiary {
     background-color: var(--accent-tertiary);
     color: var(--accent-tertiary-contrast);
+}
+
+.nav-square--quaternary {
+    background-color: var(--accent-quaternary);
+    color: var(--accent-quaternary-contrast);
 }

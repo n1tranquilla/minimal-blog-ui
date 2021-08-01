@@ -1,0 +1,14 @@
+.nav-corner {
+    display: grid;
+    grid-template-columns: repeat(4, var(--weave-width));
+    grid-template-rows: repeat(4, var(--weave-width));
+    gap: 0;
+}
+
+.nav-corner > div:nth-child(1) {
+    border-right: 1px solid grey;
+}
+
+.nav-corner > div:nth-child(2) {
+    border-bottom: 1px solid grey;
+}
