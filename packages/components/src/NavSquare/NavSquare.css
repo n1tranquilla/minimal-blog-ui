@@ -1,0 +1,27 @@
+.nav-square {
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.nav-square:hover{
+    box-shadow: 0px 4px 2px -2px gray;
+}
+
+.nav-square--primary {
+    background-color: var(--accent-primary);
+    color: var(--accent-primary-contrast);
+}
+
+.nav-square--secondary {
+    background-color: var(--accent-secondary);
+    color: var(--accent-secondary-contrast);
+}
+
+.nav-square--tertiary {
+    background-color: var(--accent-tertiary);
+    color: var(--accent-tertiary-contrast);
+}
